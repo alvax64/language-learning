@@ -1,0 +1,10 @@
+{
+  "name": "lingocards",
+  "version": "1.0.0",
+  "description": "Learn languages with spaced-repetition flashcards — a zero-dependency web app.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test test/*.test.js"
+  }
+}
