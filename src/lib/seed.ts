@@ -1,5 +1,12 @@
 /* Starter decks loaded on first launch. Each card: [front, back, example?] */
-window.SEED_DECKS = [
+export interface SeedDeck {
+  name: string
+  frontLang: string
+  backLang: string
+  cards: [string, string, string?][]
+}
+
+export const SEED_DECKS: SeedDeck[] = [
   {
     name: 'Spanish Basics',
     frontLang: 'es-ES',

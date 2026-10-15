@@ -1,6 +1,6 @@
-const test = require('node:test');
-const assert = require('node:assert/strict');
-const SRS = require('../js/srs.js');
+import assert from 'node:assert/strict'
+import { test } from 'vitest'
+import * as SRS from '../src/lib/srs'
 
 const { GRADES } = SRS;
 const NOW = new Date(2026, 0, 10, 14, 30).getTime();
